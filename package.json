@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "./node_modules/.bin/env-cmd -f .env ./node_modules/nodemon/bin/nodemon.js src/index.js",
-    "start": "node index.js"
+    "start": "./node_modules/nodemon/bin/nodemon.js index.js"
   },
   "keywords": [
     "bot",
